@@ -27,8 +27,8 @@ esac
 
 ## History file configuration
 [ -z "$HISTFILE" ] && HISTFILE="$HOME/.zsh_history"
-HISTSIZE=50000
-SAVEHIST=10000
+HISTSIZE=999999999
+SAVEHIST=$HISTSIZE
 
 ## History command configuration
 setopt extended_history       # record timestamp of command in HISTFILE
